@@ -1,0 +1,3 @@
+import comp from "/Users/xu.wang/Documents/Github/Vuepress/docs/.vuepress/.temp/pages/discuz/template/sample.html.vue"
+const data = JSON.parse("{\"path\":\"/discuz/template/sample.html\",\"title\":\"内置常用CSS代码分析\",\"lang\":\"zh-CN\",\"frontmatter\":{},\"headers\":[{\"level\":2,\"title\":\"CSS多IE下兼容HACK写法\",\"slug\":\"css多ie下兼容hack写法\",\"link\":\"#css多ie下兼容hack写法\",\"children\":[]},{\"level\":2,\"title\":\"CSS书写规范\",\"slug\":\"css书写规范\",\"link\":\"#css书写规范\",\"children\":[]},{\"level\":2,\"title\":\"常用CSS\",\"slug\":\"常用css\",\"link\":\"#常用css\",\"children\":[]}],\"git\":{},\"filePathRelative\":\"discuz/template/sample.md\"}")
+export { comp, data }

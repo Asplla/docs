@@ -1,0 +1,3 @@
+import comp from "/Users/xu.wang/Documents/Github/Vuepress/docs/.vuepress/.temp/pages/discuz/plugin/classes.html.vue"
+const data = JSON.parse("{\"path\":\"/discuz/plugin/classes.html\",\"title\":\"第三方拓展类\",\"lang\":\"zh-CN\",\"frontmatter\":{},\"headers\":[{\"level\":2,\"title\":\"广告类\",\"slug\":\"广告类\",\"link\":\"#广告类\",\"children\":[]},{\"level\":2,\"title\":\"道具类\",\"slug\":\"道具类\",\"link\":\"#道具类\",\"children\":[]},{\"level\":2,\"title\":\"任务类\",\"slug\":\"任务类\",\"link\":\"#任务类\",\"children\":[]},{\"level\":2,\"title\":\"验证问答类\",\"slug\":\"验证问答类\",\"link\":\"#验证问答类\",\"children\":[]},{\"level\":2,\"title\":\"验证码类\",\"slug\":\"验证码类\",\"link\":\"#验证码类\",\"children\":[]}],\"git\":{},\"filePathRelative\":\"discuz/plugin/classes.md\"}")
+export { comp, data }

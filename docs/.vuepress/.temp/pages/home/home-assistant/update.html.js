@@ -1,0 +1,3 @@
+import comp from "/Users/xu.wang/Documents/Github/Vuepress/docs/.vuepress/.temp/pages/home/home-assistant/update.html.vue"
+const data = JSON.parse("{\"path\":\"/home/home-assistant/update.html\",\"title\":\"升级\",\"lang\":\"zh-CN\",\"frontmatter\":{},\"headers\":[{\"level\":2,\"title\":\"拉取Docker镜像\",\"slug\":\"拉取docker镜像\",\"link\":\"#拉取docker镜像\",\"children\":[]},{\"level\":2,\"title\":\"停止正在运行的容器\",\"slug\":\"停止正在运行的容器\",\"link\":\"#停止正在运行的容器\",\"children\":[]},{\"level\":2,\"title\":\"删除旧版本容器\",\"slug\":\"删除旧版本容器\",\"link\":\"#删除旧版本容器\",\"children\":[]},{\"level\":2,\"title\":\"在Docker创建新容器\",\"slug\":\"在docker创建新容器\",\"link\":\"#在docker创建新容器\",\"children\":[]}],\"git\":{},\"filePathRelative\":\"home/home-assistant/update.md\"}")
+export { comp, data }

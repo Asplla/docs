@@ -1,0 +1,3 @@
+import comp from "/Users/xu.wang/Documents/Github/Vuepress/docs/.vuepress/.temp/pages/home/v2raya/update.html.vue"
+const data = JSON.parse("{\"path\":\"/home/v2raya/update.html\",\"title\":\"更新\",\"lang\":\"zh-CN\",\"frontmatter\":{},\"headers\":[{\"level\":2,\"title\":\"通过脚本更新\",\"slug\":\"通过脚本更新\",\"link\":\"#通过脚本更新\",\"children\":[]},{\"level\":2,\"title\":\"通过软件源更新\",\"slug\":\"通过软件源更新\",\"link\":\"#通过软件源更新\",\"children\":[]},{\"level\":2,\"title\":\"手动更新\",\"slug\":\"手动更新\",\"link\":\"#手动更新\",\"children\":[]}],\"git\":{},\"filePathRelative\":\"home/v2raya/update.md\"}")
+export { comp, data }

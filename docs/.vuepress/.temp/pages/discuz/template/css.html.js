@@ -1,0 +1,3 @@
+import comp from "/Users/xu.wang/Documents/Github/Vuepress/docs/.vuepress/.temp/pages/discuz/template/css.html.vue"
+const data = JSON.parse("{\"path\":\"/discuz/template/css.html\",\"title\":\"模板缓存与CSS缓存\",\"lang\":\"zh-CN\",\"frontmatter\":{},\"headers\":[{\"level\":2,\"title\":\"模板缓存\",\"slug\":\"模板缓存\",\"link\":\"#模板缓存\",\"children\":[]},{\"level\":2,\"title\":\"CSS缓存\",\"slug\":\"css缓存\",\"link\":\"#css缓存\",\"children\":[]},{\"level\":2,\"title\":\"CSS 继承规范\",\"slug\":\"css-继承规范\",\"link\":\"#css-继承规范\",\"children\":[]}],\"git\":{},\"filePathRelative\":\"discuz/template/css.md\"}")
+export { comp, data }

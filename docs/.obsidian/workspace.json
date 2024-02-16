@@ -1,0 +1,188 @@
+{
+  "main": {
+    "id": "ed99e9ff91b80aae",
+    "type": "split",
+    "children": [
+      {
+        "id": "814340f1b32a787f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2a3c22a4efdfb015",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "home/home-assistant/hacs.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "ed63205808e333bb",
+    "type": "split",
+    "children": [
+      {
+        "id": "a47e33fa4fa3d49a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d4c15df89e665024",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "f17d566e3d5f4c61",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "9652f901792c4e1b",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "1a5c725bc0c13b4e",
+    "type": "split",
+    "children": [
+      {
+        "id": "5ed26c7ec26e9c38",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7f90550ae2d674d7",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "home/home-assistant/hacs.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "e33eb699e193f77d",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "home/home-assistant/hacs.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "863c6642bd1ca8e2",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "3fee2b2ec34cf411",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "home/home-assistant/hacs.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false
+    }
+  },
+  "active": "2a3c22a4efdfb015",
+  "lastOpenFiles": [
+    "home/home-assistant/install.md",
+    "home/home-assistant/hacs.md",
+    "home/docker/install.md",
+    "home/v2raya/update.md",
+    "home/v2raya/install.md",
+    "home/v2raya",
+    "home/ddns-go/README.md",
+    "home/ubuntu/install.md",
+    "README.md",
+    "home/ubuntu",
+    "home/alist/uninstall.md",
+    "home/alist/install.md",
+    "home/ddns-go",
+    "home/alist/script.md",
+    "home/alist/update.md",
+    "home/alist",
+    "weui.css",
+    "home/lnmp/install.md",
+    "home/cpolar/install.md",
+    "home/lnmp",
+    "home/未命名.md",
+    "home/docker/update.md",
+    "home/home-assistant/mysql.md",
+    "home/home-assistant/update.md",
+    "home/cpolar",
+    "discuz/README.md",
+    "home/docker",
+    "home",
+    "home/home-assistant",
+    "discuz/plugin/dev.md",
+    "discuz/plugin/module.md",
+    "discuz/plugin/vars.md",
+    "discuz/plugin/hook.md",
+    "discuz/plugin/hooklist.md",
+    "discuz/plugin/specialthread.md",
+    "discuz/plugin/classes.md"
+  ]
+}

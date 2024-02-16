@@ -1,0 +1,3 @@
+import comp from "/Users/xu.wang/Documents/Github/Vuepress/docs/.vuepress/.temp/pages/home/ubuntu/install.html.vue"
+const data = JSON.parse("{\"path\":\"/home/ubuntu/install.html\",\"title\":\"制作U盘启动\",\"lang\":\"zh-CN\",\"frontmatter\":{},\"headers\":[{\"level\":2,\"title\":\"1、下载系统镜像\",\"slug\":\"_1、下载系统镜像\",\"link\":\"#_1、下载系统镜像\",\"children\":[]},{\"level\":2,\"title\":\"2、格式化启动U盘\",\"slug\":\"_2、格式化启动u盘\",\"link\":\"#_2、格式化启动u盘\",\"children\":[]},{\"level\":2,\"title\":\"3、刻录系统到U盘\",\"slug\":\"_3、刻录系统到u盘\",\"link\":\"#_3、刻录系统到u盘\",\"children\":[]}],\"git\":{},\"filePathRelative\":\"home/ubuntu/install.md\"}")
+export { comp, data }

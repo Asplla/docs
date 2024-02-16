@@ -1,0 +1,17 @@
+<template><div><h1 id="制作u盘启动" tabindex="-1"><a class="header-anchor" href="#制作u盘启动"><span>制作U盘启动</span></a></h1>
+<h2 id="_1、下载系统镜像" tabindex="-1"><a class="header-anchor" href="#_1、下载系统镜像"><span>1、下载系统镜像</span></a></h2>
+<p>https://cn.ubuntu.com/download</p>
+<h2 id="_2、格式化启动u盘" tabindex="-1"><a class="header-anchor" href="#_2、格式化启动u盘"><span>2、格式化启动U盘</span></a></h2>
+<p>使用如下命令列出所有磁盘，找到U盘，并对U盘进行格式化为FAT32格式。</p>
+<div class="language-bash line-numbers-mode" data-ext="sh" data-title="sh"><pre v-pre class="language-bash"><code>// 查找U盘盘符
+diskutil list
+// U盘格式化（将disk1替换为实际盘符）
+diskutil partitionDisk /dev/disk1 MBR FAT32 UNTITLED 0b
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2 id="_3、刻录系统到u盘" tabindex="-1"><a class="header-anchor" href="#_3、刻录系统到u盘"><span>3、刻录系统到U盘</span></a></h2>
+<div class="language-bash line-numbers-mode" data-ext="sh" data-title="sh"><pre v-pre class="language-bash"><code>// 首先卸载U盘（disk1替换为实际盘符）
+diskutil umountDisk /dev/disk1
+// 使用DD命令刻录U盘（输入密码后需要等待一段时间）
+<span class="token function">sudo</span> <span class="token function">dd</span> <span class="token assign-left variable">if</span><span class="token operator">=</span><span class="token punctuation">[</span>IOS文件的绝对地址<span class="token punctuation">]</span> <span class="token assign-left variable">of</span><span class="token operator">=</span><span class="token punctuation">[</span>盘符<span class="token punctuation">]</span> <span class="token assign-left variable">bs</span><span class="token operator">=</span>10m
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div></div></template>
+
+

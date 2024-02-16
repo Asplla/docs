@@ -1,0 +1,3 @@
+import comp from "/Users/xu.wang/Documents/Github/Vuepress/docs/.vuepress/.temp/pages/discuz/plugin/dev.html.vue"
+const data = JSON.parse("{\"path\":\"/discuz/plugin/dev.html\",\"title\":\"准备工作\",\"lang\":\"zh-CN\",\"frontmatter\":{},\"headers\":[{\"level\":2,\"title\":\"插件实现流程\",\"slug\":\"插件实现流程\",\"link\":\"#插件实现流程\",\"children\":[]},{\"level\":2,\"title\":\"文件命名规范\",\"slug\":\"文件命名规范\",\"link\":\"#文件命名规范\",\"children\":[]},{\"level\":2,\"title\":\"class_core.php 模块功能白皮书\",\"slug\":\"class-core-php-模块功能白皮书\",\"link\":\"#class-core-php-模块功能白皮书\",\"children\":[]}],\"git\":{},\"filePathRelative\":\"discuz/plugin/dev.md\"}")
+export { comp, data }
