@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "home/home-assistant/hacs.md",
+                "file": "home/home-assistant/install.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "home/home-assistant/hacs.md",
+                "file": "home/home-assistant/install.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "home/home-assistant/hacs.md",
+                "file": "home/home-assistant/install.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "home/home-assistant/hacs.md"
+                "file": "home/home-assistant/install.md"
               }
             }
           }
@@ -148,8 +148,15 @@
   },
   "active": "2a3c22a4efdfb015",
   "lastOpenFiles": [
-    "home/home-assistant/install.md",
+    "home/alist 2/update.md",
+    "home/alist 2/install.md",
+    "home/alist 2",
+    "home/home-assistant 2/update.md",
+    "home/home-assistant 2/mysql.md",
+    "home/home-assistant 2/install.md",
+    "home/home-assistant 2",
     "home/home-assistant/hacs.md",
+    "home/home-assistant/install.md",
     "home/docker/install.md",
     "home/v2raya/update.md",
     "home/v2raya/install.md",
@@ -175,14 +182,7 @@
     "home/cpolar",
     "discuz/README.md",
     "home/docker",
-    "home",
-    "home/home-assistant",
     "discuz/plugin/dev.md",
-    "discuz/plugin/module.md",
-    "discuz/plugin/vars.md",
-    "discuz/plugin/hook.md",
-    "discuz/plugin/hooklist.md",
-    "discuz/plugin/specialthread.md",
-    "discuz/plugin/classes.md"
+    "discuz/plugin/module.md"
   ]
 }
