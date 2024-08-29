@@ -7,7 +7,6 @@ export default defineConfig({
   title: "WXHUB DOCS",
   description: "WXHUB DOCS",
   srcDir: './src',
-  outDir: 'dist',
   ignoreDeadLinks: true,
   lastUpdated: true,
   themeConfig: {
