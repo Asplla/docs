@@ -7,6 +7,7 @@ export default defineConfig({
   title: "WXHUB DOCS",
   description: "WXHUB DOCS",
   srcDir: './src',
+  outDir: 'dist',
   lastUpdated: true,
   themeConfig: {
     logo: { light: '/src/img/logo_light.svg', dark: '/src/img/logo_dark.svg' },
