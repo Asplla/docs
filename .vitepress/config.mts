@@ -210,7 +210,7 @@ export default defineConfig({
       copyright: 'Copyright © 2014-2024 wxhub All rights reserved'
     },
     socialLinks: [
-      //{ icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+      { icon: 'github', link: 'https://github.com/Asplla/docs' }
     ]
   }
 })
