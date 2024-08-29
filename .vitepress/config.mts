@@ -206,6 +206,17 @@ export default defineConfig({
         }
       ]
     },
+    lastUpdated: {
+      text: '最后更新',
+    },
+    editLink: {
+      pattern: 'https://github.com/Asplla/docs/tree/main/src/:path',
+      text: '在 GitHub 上编辑此页面'
+    },
+    docFooter: {
+      prev: '上一页',
+      next: '下一页'
+    },
     footer: {
       message: 'Released under the MIT License.',
       copyright: 'Copyright © 2014-2024 wxhub All rights reserved'
