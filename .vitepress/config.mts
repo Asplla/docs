@@ -21,7 +21,7 @@ export default defineConfig({
           { text: 'Discuz! 开发文档', link: '/discuz/dev/coderule' },
         ]
       },
-      { text: 'Home Service', link: '/home-server/asus/hosts' },
+      { text: 'Home Service', link: '/home-server/alist/alist' },
     ],
 
     sidebar: {
