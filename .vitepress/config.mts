@@ -131,6 +131,16 @@ export default defineConfig({
       ],
       '/home-server/': [
         {
+          text:'Alist',
+          collapsed: false,
+          items: [
+            {
+              text: '一键脚本安装/升级',
+              link: '/home-server/alist/alist'
+            }
+          ]
+        },
+        {
           text:'ASUS Router',
           collapsed: false,
           items: [
