@@ -137,6 +137,10 @@ export default defineConfig({
             {
               text: '一键脚本安装/升级',
               link: '/home-server/alist/alist'
+            },
+            {
+              text: '115网盘获取Token',
+              link: '/home-server/alist/115'
             }
           ]
         },
