@@ -9,7 +9,7 @@ hero:
   actions:
     - theme: brand
       text: Discuz! 开发文档
-      link: /discuz/dev/coderule
+      link: /discuz/dev/start
     - theme: alt
       text: Home Assistant 文档
       link: /home-server/asus/hosts

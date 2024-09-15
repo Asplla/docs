@@ -18,7 +18,7 @@ export default defineConfig({
         text: 'Discuz! 文档',
         items: [
           { text: 'Discuz! API文档', link: '/discuz/api/base/overview' },
-          { text: 'Discuz! 开发文档', link: '/discuz/dev/coderule' },
+          { text: 'Discuz! 开发文档', link: '/discuz/dev/start' },
         ]
       },
       { text: 'Home Service', link: '/home-server/alist/alist' },
@@ -54,6 +54,10 @@ export default defineConfig({
         {
           text: 'Discuz! 开发文档',
           items: [
+            {
+              text: '开始',
+              link: '/discuz/dev/start',
+            },
             {
               text: '编码规范',
               link: '/discuz/dev/coderule',
