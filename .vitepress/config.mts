@@ -21,6 +21,7 @@ export default defineConfig({
           { text: 'Discuz! 开发文档', link: '/discuz/dev/start' },
         ]
       },
+      { text: 'Vue', link: '/vue/install' },
       { text: 'Home Service', link: '/home-server/alist/alist' },
     ],
 
@@ -129,6 +130,28 @@ export default defineConfig({
                   link: '/discuz/dev/plugin/notice'
                 }
               ]
+            }
+          ]
+        }
+      ],
+      '/vue/': [
+        {
+          text:'VUE 3',
+          collapsed: false,
+          items: [
+            {
+              text: '安装',
+              link: '/vue/install'
+            },
+          ]
+        },
+        {
+          text: 'TailwindCSS',
+          collapsed: false,
+          items: [
+            {
+              text: '安装及配置',
+              link: '/vue/tailwindcss/install'
             }
           ]
         }
