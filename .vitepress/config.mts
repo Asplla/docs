@@ -21,7 +21,7 @@ export default defineConfig({
           { text: 'Discuz! 开发文档', link: '/discuz/dev/start' },
         ]
       },
-      { text: 'Vue', link: '/vue/install' },
+      { text: 'Vue', link: '/vue/quick-start' },
       { text: 'Home Service', link: '/home-server/alist/alist' },
     ],
 
@@ -140,8 +140,8 @@ export default defineConfig({
           collapsed: false,
           items: [
             {
-              text: '安装',
-              link: '/vue/install'
+              text: '快速上手',
+              link: '/vue/quick-start'
             },
           ]
         },
