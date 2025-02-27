@@ -1,73 +1,98 @@
----
-title: 用户登录
-language_tabs:
-  - shell: Shell
-  - http: HTTP
-  - javascript: JavaScript
-  - ruby: Ruby
-  - python: Python
-  - php: PHP
-  - java: Java
-  - go: Go
-toc_footers: []
-includes: []
-search: true
-code_clipboard: true
-highlight_theme: darkula
-headingLevel: 2
-generator: "@tarslib/widdershins v4.0.23"
+# 用户名密码登录接口
 
----
-# POST 用户登录
-Base URLs:
+## 接口说明
+用户通过用户名和密码进行登录认证。
 
-* <a href="https://bbs.wxss.fit">正式环境: https://bbs.wxss.fit</a>
+## 请求信息
+- **接口URL**: `/plugin.php?id=api&mod=user&op=auth&ac=login&meth=password`
+- **请求方式**: POST
+- **Content-Type**: application/x-www-form-urlencoded
 
-# Authentication
+## 请求参数
 
-# 用户相关
+| 参数名 | 类型 | 必填 | 说明 |
+| --- | --- | --- | --- |
+| username | string | 是 | 用户名 |
+| password | string | 是 | 登录密码 |
+| platform | string | 否 | 登录平台标识 |
+| deviceId | string | 否 | 设备唯一标识 |
 
-## POST 用户登录
-|||
-|---|---|
-|POST|/api/user/login|
+## 响应数据
 
-### 请求参数
-
-|名称|位置|类型|必选|说明|
-|---|---|---|---|---|
-|username|query|string| 是 |用户名|
-|password|query|string| 是 |密码|
-|Api-Secret|header|string| 是 |AP安全秘钥|
-
-### 返回示例
-
-:::: code-group
-::: code-group-item 成功
+### 成功响应
 ```json
 {
-  "code": 0,
-  "msg": "login success",
-  "data": {
-    "uid": 1,
-    "token": "e04fc9c6d55c989f17337fb069f2d79c",
-    "expire_in": 1724129381
-  }
+    "code": 0,
+    "message": "success",
+    "data": {
+        "token": "xxxxxxxx",
+        "user": {
+            "uid": "123",
+            "username": "test_user"
+        }
+    },
+    "timestamp": 1234567890
 }
 ```
-:::
-::: code-group-item 失败
+
+### 响应参数说明
+
+| 参数名 | 类型 | 说明 |
+| --- | --- | --- |
+| code | int | 响应状态码 |
+| message | string | 响应消息 |
+| data | object | 响应数据 |
+| data.token | string | 用户登录令牌 |
+| data.user | object | 用户信息 |
+| data.user.uid | string | 用户ID |
+| data.user.username | string | 用户名 |
+| timestamp | int | 响应时间戳 |
+
+## 错误码说明
+
+| 错误码 | 说明 | 处理建议 |
+| --- | --- | --- |
+| MISSING_PARAMETER | 缺少必要参数 | 检查是否提供了必要的username和password参数 |
+| PASSWORD_ERROR | 密码错误 | 检查密码是否正确 |
+| UNKNOWN_ERROR | 未知错误 | 请联系管理员处理 |
+
+## 示例
+
+### 请求示例
+```bash
+curl -X POST \
+  'http://your-domain/plugin.php?id=api&mod=user&op=auth&ac=login&meth=password' \
+  -H 'Content-Type: application/x-www-form-urlencoded' \
+  -d 'username=test_user&password=123456'
+```
+
+### 成功响应示例
 ```json
 {
-  "code": "400013",
-  "msg": "Please do not log in again"
+    "code": 0,
+    "message": "success",
+    "data": {
+        "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...",
+        "user": {
+            "uid": "10001",
+            "username": "test_user"
+        }
+    },
+    "timestamp": 1707139012
 }
 ```
-:::
-::::
 
-### 返回结果
+### 错误响应示例
+```json
+{
+    "code": 1001,
+    "message": "密码错误",
+    "data": {},
+    "timestamp": 1707139012
+}
+```
 
-|状态码|状态码含义|说明|数据模型|
-|---|---|---|---|
-|200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|成功|Inline|
+## 注意事项
+1. 请确保通过HTTPS发送请求，保护用户密码安全
+2. 获取到的token需要在后续请求中通过Authorization头部发送
+3. token有效期为24小时，请在过期前通过刷新接口更新token

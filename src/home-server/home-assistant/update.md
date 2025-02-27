@@ -11,7 +11,7 @@ date: 2024/08/14
 
 ## 拉取Docker镜像
 ```bash
-docker pull ghcr.io/home-assistant/home-assistant:stable
+docker pull ghcr.nju.edu.cn/home-assistant/home-assistant:stable
 ```
 如果返回“图像是最新的（Image is up to date）”，可以跳过本步骤。
 ## 停止正在运行的容器
@@ -32,6 +32,6 @@ docker run -d \
   -v /opt/homeassistant:/config \
   -v /run/dbus:/run/dbus:ro \
   --network=host \
-  ghcr.io/home-assistant/home-assistant:stable
+  ghcr.nju.edu.cn/home-assistant/home-assistant:stable
 ```
 Home Assistant容器运行后，应该可以使用http://host:8123访问Home Assistant（替换为系统的主机名或IP）。您可以继续操作。

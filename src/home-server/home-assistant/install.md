@@ -13,5 +13,5 @@ docker run -d \
   -v /opt/homeassistant:/config \
   -v /run/dbus:/run/dbus:ro \
   --network=host \
-  ghcr.io/home-assistant/home-assistant:stable
+  ghcr.nju.edu.cn/home-assistant/home-assistant:stable
 ```
